@@ -14,11 +14,11 @@ This project analyzes the relationship between crime rates and key socioeconomic
 
 ## Why This Project Matters
 
-Understanding the relationship between economic conditions and crime is essential for informed public policy and social planning.
+Understanding the relationship between economic conditions and crime is crucial for informed policymaking and effective public safety planning.
 
-In this project, I analyzed 3,000+ U.S. counties to examine how key socioeconomic factors—specifically median income and unemployment rates—relate to violent crime rates. Using Python for data extraction, cleaning, and OLS regression analysis, I found a statistically significant negative relationship (p < 0.05) between median income and crime rates, indicating that higher-income areas tend to experience lower levels of violent crime.
+In this project, I analyzed U.S. state-level data to examine the relationship between violent crime rates and key socioeconomic indicators, including median household income and unemployment rates. Using Python for data cleaning, exploratory analysis, and ordinary least squares (OLS) regression, I found a statistically significant negative relationship (p < 0.05) between median income and crime rates, indicating that states with higher median incomes tend to experience lower levels of violent crime. I also observed a positive and significant relationship between unemployment and crime rates.
 
-To make these insights accessible and interactive, I built a Tableau dashboard that allows users to explore crime patterns geographically and analyze income–crime relationships at the state level. This combination of statistical analysis and visualization demonstrates how data-driven insights can support evidence-based decision-making in economics and public policy.
+To effectively communicate these findings, I created an interactive Tableau dashboard featuring a geographic crime map and a scatter plot with trend lines, which allows users to explore patterns across states and visually assess the relationships between income, unemployment, and crime.
 
 ## Visualization
 Interactive Tableau dashboard:
