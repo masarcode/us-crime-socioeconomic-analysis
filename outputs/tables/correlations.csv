@@ -1,0 +1,4 @@
+variable,violent_crime_rate_per_100k,unemployment_rate_pct,median_household_income
+violent_crime_rate_per_100k,1.00000000,0.37699154,-0.28695062
+unemployment_rate_pct,0.37699154,1.00000000,-0.01420426
+median_household_income,-0.28695062,-0.01420426,1.00000000

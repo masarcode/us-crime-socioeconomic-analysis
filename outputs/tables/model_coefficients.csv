@@ -1,0 +1,4 @@
+term,estimate,robust_standard_error,p_value,ci_95_lower,ci_95_upper,unit,covariance
+const,329.50122567,195.19047645,0.09139186,-53.06507828,712.06752963,baseline intercept,HC3
+unemployment_rate_pct,72.09216092,27.15732260,0.00793996,18.86478670,125.31953514,per 1 percentage-point increase,HC3
+median_income_10k,-32.12369475,18.01683174,0.07458916,-67.43603607,3.18864657,"per $10,000 increase",HC3

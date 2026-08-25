@@ -1,0 +1,7 @@
+{
+  "analysis_year": 2023,
+  "minimum_mean_population_coverage_pct": 90.0,
+  "include_district_of_columbia": false,
+  "fbi_start_month": "01-2023",
+  "fbi_end_month": "12-2023"
+}

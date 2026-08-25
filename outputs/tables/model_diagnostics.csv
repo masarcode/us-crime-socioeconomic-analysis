@@ -1,0 +1,2 @@
+sample_size,outcome,coverage_floor_pct,excluded_states,r_squared,adjusted_r_squared,rmse,condition_number,jarque_bera_stat,jarque_bera_p_value,residual_skew,residual_kurtosis,breusch_pagan_stat,breusch_pagan_p_value,unemployment_vif,income_vif,max_cooks_distance,cooks_flag_threshold
+43,violent_crime_rate_per_100k,90.00000000,,0.22143478,0.18250651,123.00652779,76.88799065,0.92892703,0.62847218,0.33315188,3.27296558,1.99446723,0.36889855,1.00020180,1.00020180,0.18631370,0.09302326
