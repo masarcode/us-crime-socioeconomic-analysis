@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "us-crime-socioeconomic-analysis"
+version = "1.0.0"
+description = "Reproducible state-level analysis of reported violent crime and socioeconomic indicators"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<4",
+  "statsmodels>=0.14,<0.15",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

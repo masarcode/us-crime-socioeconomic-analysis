@@ -1,0 +1,6 @@
+scenario,sample_size,outcome,coverage_floor_pct,excluded_states,r_squared,adjusted_r_squared,unemployment_estimate,unemployment_p_value,income_estimate,income_p_value
+primary,43,violent_crime_rate_per_100k,90.00000000,,0.22143478,0.18250651,72.09216092,0.00793996,-32.12369475,0.07458916
+all_50_states,50,violent_crime_rate_per_100k,0.00000000,,0.20534961,0.17153470,75.03784433,0.00593252,-28.60203508,0.14421011
+95_pct_coverage,38,violent_crime_rate_per_100k,95.00000000,,0.25105928,0.20826267,80.30337865,0.00507715,-39.88633874,0.03365525
+log_outcome,43,log_violent_crime_rate,90.00000000,,0.22635195,0.18766955,0.21693169,0.01570050,-0.10227298,0.05452061
+exclude_two_most_influential,41,violent_crime_rate_per_100k,90.00000000,AK;WV,0.29035040,0.25300042,63.10600293,0.00856908,-44.25070052,0.01077132
